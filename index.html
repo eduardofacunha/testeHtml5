@@ -6,16 +6,6 @@
     <title>Unity Web Player | TAPEGO</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-	<style>
-		html, body, canvas {
-			margin: 0;
-			padding: 0;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			display: block;
-		}
-	</style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -65,9 +55,9 @@
       var loaderUrl = buildUrl + "/tapego.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/tapego.data.br",
-        frameworkUrl: buildUrl + "/tapego.framework.js.br",
-        codeUrl: buildUrl + "/tapego.wasm.br",
+        dataUrl: buildUrl + "/tapego.data",
+        frameworkUrl: buildUrl + "/tapego.framework.js",
+        codeUrl: buildUrl + "/tapego.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "TAPEGO",
